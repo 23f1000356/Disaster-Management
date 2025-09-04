@@ -2,19 +2,40 @@
 
 This repository contains both the frontend (React/Next.js) and backend (Python) components for the Climate project.
 
+## Problem Statement
+
+Climate change poses significant risks to communities, including increased frequency and severity of natural disasters. There is a need for a centralized platform that enables users, administrators, and agents to monitor climate data, predict disasters, and manage responses efficiently.
+
+## Feasible Solution
+
+Develop a web-based climate management application that:
+- Allows users to sign up, log in, and access personalized dashboards.
+- Provides administrators with tools to monitor climate data, manage users, and oversee disaster prediction agents.
+- Integrates disaster prediction and monitoring agents to analyze climate data and provide early warnings.
+- Stores relevant data in a local database for quick access and analysis.
+
+## What the Project Does
+
+This project is a climate management web app with:
+- User authentication (login/signup)
+- User and admin dashboards
+- Disaster prediction and monitoring agents
+- Data visualization and management features for climate events
+- Admin controls for user and agent management
+
+## Tech Stack Used
+
+- **Frontend:** React (Next.js), CSS Modules
+- **Backend:** Python (Flask or similar, inferred from `backend.py`)
+- **Database:** SQLite (`acms.db`)
+- **Other:** Node.js (for Next.js), possibly REST API for backend communication
+
 ## Folder Structure
 
-- `acdms-dashboard/` - Main Next.js frontend app
-- `pages/` - Additional frontend pages (if used)
-- `backend.py` - Python backend script
 
 ## Prerequisites
 
-- Node.js (v18+ recommended)
-- npm (comes with Node.js)
-- Python (v3.8+ recommended)
 
----
 
 ## Running the Frontend
 
